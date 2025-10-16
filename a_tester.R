@@ -11,5 +11,5 @@ stopifnot(isTRUE(all.equal(
     func_cal_bmi(weight = 198, height = 69, unit_is_metric = FALSE), 29.23629, tolerance = 0.0001
 )))
 
-print("2/2 passed, with imperial units")
+print("2/2 passed, with imperial units") 
 
