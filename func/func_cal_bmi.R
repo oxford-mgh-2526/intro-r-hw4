@@ -11,12 +11,12 @@ func_cal_bmi <- function(weight, height, unit_is_metric=TRUE) {
   }else{
     bmi<- 703*weight/(height^2)
   }
-    print(bmi)
+    return(bmi)
 }
 
-if(TRUE){
+
   func_cal_bmi(weight = 90, height = 1.75) # expects 29.38776
   func_cal_bmi(weight = 198, height = 69, unit_is_metric = FALSE) # expects 29.23629
-}
+
 
 
