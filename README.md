@@ -17,6 +17,13 @@ These are written in the `a_tester.R` file. Don't make any changes to this file.
 You can find similar checks at the end of `func_cal_bmi.R` too without `stopifnot`.
 These are for your convenience when you want to know if your implementation is correct.
 
+## Hints
+
+In addition to writing the code to implement the function, you should pay attention to
+
+ - How the function is commented at the beginning of `func_cal_bmi.R`
+ - How the `source` function works at the beginning of `a_tester.R`
+
 ## Submission
 
 You should follow these steps:
