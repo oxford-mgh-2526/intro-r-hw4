@@ -7,6 +7,12 @@
 #' @returns A single value for bmi (in kg/m^2)
 func_cal_bmi <- function(weight, height, unit_is_metric = TRUE) {
     # implement this function here
+    if (unit_is_metric==TRUE){
+        BMI <- weight/(height^2)
+    }else {
+        BMI <- weight*703/(height^2)
+    }
+    print(BMI)
 }
 
 if (FALSE) {
