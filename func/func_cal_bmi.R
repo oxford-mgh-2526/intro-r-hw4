@@ -7,9 +7,22 @@
 #' @returns A single value for bmi (in kg/m^2)
 func_cal_bmi <- function(weight, height, unit_is_metric = TRUE) {
     # implement this function here
+    stopifnot(weight > 0)
+    stopifnot(height > 0)
+    if(unit_is_metric == 1) {
+   bmi <- weight/(height^2) 
+    } else {
+        bmi <- weight/(height^2) * 703
+    }
+
+    return(bmi)
 }
 
 if (FALSE) {
     func_cal_bmi(weight = 90, height = 1.75) # expects 29.38776
     func_cal_bmi(weight = 198, height = 69, unit_is_metric = FALSE) # expects 29.23629
 }
+
+
+
+func_cal_bmi(weight = 90, height = 1.75)
