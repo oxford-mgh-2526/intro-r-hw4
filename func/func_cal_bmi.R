@@ -25,4 +25,3 @@ if (FALSE) {
 
 
 
-func_cal_bmi(weight = 90, height = 1.75)
