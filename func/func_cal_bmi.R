@@ -16,11 +16,8 @@ func_cal_bmi <- function(weight, height, unit_is_metric) {
         
         return(bmi)
 }
-    
-func_cal_bmi(90, 1.75, TRUE)
 
-
-#if (FALSE) {}
-    #func_cal_bmi(weight = 90, height = 1.75) # expects 29.38776
-   # func_cal_bmi(weight = 198, height = 69, unit_is_metric = FALSE) # expects 29.23629
-#{}
+if (FALSE) {
+    func_cal_bmi(weight = 90, height = 1.75) # expects 29.38776
+    func_cal_bmi(weight = 198, height = 69, unit_is_metric = FALSE) # expects 29.23629
+}
