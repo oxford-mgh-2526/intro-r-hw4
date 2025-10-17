@@ -5,7 +5,7 @@
 #' @param height The height of the person in m (metric) / inches (imperial)
 #' @param unit_is_metric TRUE if using metric units, FALSE if using imperial units
 #' @returns A single value for bmi (in kg/m^2)
-func_cal_bmi <- function(weight, height, unit_is_metric) {
+func_cal_bmi <- function(weight, height, unit_is_metric = TRUE) {
     # implement this function here
 
  if (unit_is_metric == TRUE) {
