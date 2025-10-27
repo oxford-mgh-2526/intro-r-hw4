@@ -1,5 +1,5 @@
 rm(list = ls())
-source(file.path("func", "func_cal_bmi.R"))
+?source(file.path("func", "func_cal_bmi.R"))
 
 stopifnot(isTRUE(all.equal(
     func_cal_bmi(weight = 90, height = 1.75), 29.38776, tolerance = 0.0001
