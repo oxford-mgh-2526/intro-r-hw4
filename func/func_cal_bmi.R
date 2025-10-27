@@ -8,9 +8,9 @@
 func_cal_bmi <- function(weight, height, unit_is_metric = TRUE) {
     # implement this function here
         if (unit_is_metric) {
-            bmi <- weight/(height ^ 2)
+            bmi <- weight/(height^2)
         } else {
-            bmi <- 703 * (weight/(height ^ 2))  
+            bmi <- (weight/(height^2))*703 
         }
         
         return(bmi)  
